@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vehicle MSRP Calculator</title>
+    <link rel="stylesheet" href="/frontend/styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🚗 Vehicle MSRP Calculator</h1>
+            <p class="subtitle">Calculate Manufacturer's Suggested Retail Price for Vehicle Exports</p>
+        </header>
+
+        <!-- Step 1: Input Form -->
+        <div id="step1" class="step active">
+            <div class="card">
+                <h2>Vehicle & Export Information</h2>
+                <form id="calculatorForm">
+                    <div class="form-section">
+                        <h3>Vehicle Details</h3>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="vehicleType">Vehicle Type *</label>
+                                <select id="vehicleType" required>
+                                    <option value="">Select type...</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="propulsion">Propulsion System *</label>
+                                <select id="propulsion" required>
+                                    <option value="">Select propulsion...</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="fobPrice">FOB Price (USD) *</label>
+                                <input type="number" id="fobPrice" min="0" step="0.01" placeholder="e.g., 25000" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="targetMargin">Target Margin (%) *</label>
+                                <input type="number" id="targetMargin" min="0" max="100" step="0.1" placeholder="e.g., 15" required>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="form-section">
+                        <h3>Geographic Information</h3>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="productionCountry">Production Country *</label>
+                                <select id="productionCountry" required>
+                                    <option value="">Select production country...</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="destinationCountry">Destination Country *</label>
+                                <select id="destinationCountry" required>
+                                    <option value="">Select destination country...</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="button-group">
+                        <button type="submit" class="btn btn-primary">Calculate MSRP</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <!-- Step 2: Results Display -->
+        <div id="step2" class="step">
+            <div class="card">
+                <div class="results-header">
+                    <h2>MSRP Calculation Results</h2>
+                    <button id="recalculateBtn" class="btn btn-secondary">← Recalculate</button>
+                </div>
+
+                <div id="results">
+                    <!-- Results will be populated by JavaScript -->
+                </div>
+
+                <div id="sources" class="sources-section">
+                    <!-- Sources will be populated by JavaScript -->
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <p>Vehicle MSRP Calculator | Data from public trade and tax databases</p>
+        </footer>
+    </div>
+
+    <script src="/frontend/script.js"></script>
+</body>
+</html>
