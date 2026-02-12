@@ -19,4 +19,4 @@ python3 -m http.server 8000
 npx serve
 ```
 
-Then open your browser to `http://localhost:8000` (or the port shown by the server).
+Then open your browser to the URL shown by the server (typically `http://localhost:8000` for Python or `http://localhost:3000` for npx serve).
