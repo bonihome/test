@@ -11,5 +11,12 @@ Alternatively, to run locally:
 git clone https://github.com/bonihome/test.git
 cd test
 
-# Open in your browser or run with a local server
+# Run with a local server (choose one):
+# Using Python 3
+python3 -m http.server 8000
+
+# Or using Node.js
+npx serve
 ```
+
+Then open your browser to `http://localhost:8000` (or the port shown by the server).
