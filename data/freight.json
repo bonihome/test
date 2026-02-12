@@ -1,0 +1,107 @@
+[
+  {
+    "origin": "China",
+    "destination": "Germany",
+    "vehicle_type": "Car",
+    "cost": 1200.0,
+    "source": "Average Asia-Europe container shipping cost"
+  },
+  {
+    "origin": "China",
+    "destination": "USA",
+    "vehicle_type": "Car",
+    "cost": 1500.0,
+    "source": "Average Trans-Pacific shipping cost"
+  },
+  {
+    "origin": "Japan",
+    "destination": "Germany",
+    "vehicle_type": "Car",
+    "cost": 1300.0,
+    "source": "Average Asia-Europe container shipping cost"
+  },
+  {
+    "origin": "Japan",
+    "destination": "USA",
+    "vehicle_type": "Car",
+    "cost": 1400.0,
+    "source": "Average Trans-Pacific shipping cost"
+  },
+  {
+    "origin": "Germany",
+    "destination": "USA",
+    "vehicle_type": "Car",
+    "cost": 2000.0,
+    "source": "Average Trans-Atlantic shipping cost"
+  },
+  {
+    "origin": "Germany",
+    "destination": "China",
+    "vehicle_type": "Car",
+    "cost": 2500.0,
+    "source": "Average Europe-Asia shipping cost"
+  },
+  {
+    "origin": "USA",
+    "destination": "Germany",
+    "vehicle_type": "Car",
+    "cost": 1800.0,
+    "source": "Average Trans-Atlantic shipping cost"
+  },
+  {
+    "origin": "USA",
+    "destination": "China",
+    "vehicle_type": "Car",
+    "cost": 1600.0,
+    "source": "Average Trans-Pacific shipping cost"
+  },
+  {
+    "origin": "Mexico",
+    "destination": "USA",
+    "vehicle_type": "Car",
+    "cost": 400.0,
+    "source": "Regional North America shipping cost"
+  },
+  {
+    "origin": "Thailand",
+    "destination": "Japan",
+    "vehicle_type": "Car",
+    "cost": 600.0,
+    "source": "Regional Asia shipping cost"
+  },
+  {
+    "origin": "South Korea",
+    "destination": "Germany",
+    "vehicle_type": "Car",
+    "cost": 1350.0,
+    "source": "Average Asia-Europe container shipping cost"
+  },
+  {
+    "origin": "UK",
+    "destination": "Germany",
+    "vehicle_type": "Car",
+    "cost": 300.0,
+    "source": "Regional Europe shipping cost"
+  },
+  {
+    "origin": "Turkey",
+    "destination": "Germany",
+    "vehicle_type": "Car",
+    "cost": 700.0,
+    "source": "Regional Europe shipping cost"
+  },
+  {
+    "origin": "Brazil",
+    "destination": "Argentina",
+    "vehicle_type": "Car",
+    "cost": 500.0,
+    "source": "Regional South America shipping cost"
+  },
+  {
+    "origin": "India",
+    "destination": "Germany",
+    "vehicle_type": "Car",
+    "cost": 1400.0,
+    "source": "Average Asia-Europe shipping cost"
+  }
+]
