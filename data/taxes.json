@@ -1,0 +1,404 @@
+{
+  "Germany": [
+    {
+      "type": "VAT",
+      "rate": 19.0,
+      "base": "CIF_plus_duty",
+      "source": "German Federal Ministry of Finance",
+      "source_url": "https://www.bundesfinanzministerium.de/",
+      "note": ""
+    }
+  ],
+  "France": [
+    {
+      "type": "VAT",
+      "rate": 20.0,
+      "base": "CIF_plus_duty",
+      "source": "French Tax Authority",
+      "source_url": "https://www.impots.gouv.fr/",
+      "note": ""
+    },
+    {
+      "type": "Registration Tax",
+      "rate": 0.0,
+      "base": "CIF_plus_duty",
+      "source": "French Tax Authority",
+      "source_url": "https://www.impots.gouv.fr/",
+      "note": "BEVs exempt from registration tax"
+    }
+  ],
+  "Italy": [
+    {
+      "type": "VAT",
+      "rate": 22.0,
+      "base": "CIF_plus_duty",
+      "source": "Italian Revenue Agency",
+      "source_url": "https://www.agenziaentrate.gov.it/",
+      "note": ""
+    }
+  ],
+  "Spain": [
+    {
+      "type": "VAT",
+      "rate": 21.0,
+      "base": "CIF_plus_duty",
+      "source": "Spanish Tax Agency",
+      "source_url": "https://www.agenciatributaria.es/",
+      "note": ""
+    },
+    {
+      "type": "Registration Tax",
+      "rate": 4.75,
+      "base": "CIF_plus_duty",
+      "source": "Spanish Tax Agency",
+      "source_url": "https://www.agenciatributaria.es/",
+      "note": "Varies by CO2 emissions, 0% for BEVs"
+    }
+  ],
+  "Sweden": [
+    {
+      "type": "VAT",
+      "rate": 25.0,
+      "base": "CIF_plus_duty",
+      "source": "Swedish Tax Agency",
+      "source_url": "https://www.skatteverket.se/",
+      "note": ""
+    }
+  ],
+  "Norway": [
+    {
+      "type": "VAT",
+      "rate": 25.0,
+      "base": "CIF_plus_duty",
+      "source": "Norwegian Tax Administration",
+      "source_url": "https://www.skatteetaten.no/",
+      "note": ""
+    },
+    {
+      "type": "Registration Tax",
+      "rate": 0.0,
+      "base": "CIF_plus_duty",
+      "source": "Norwegian Road Federation",
+      "source_url": "https://ofv.no/",
+      "note": "BEVs exempt from registration tax"
+    }
+  ],
+  "Denmark": [
+    {
+      "type": "VAT",
+      "rate": 25.0,
+      "base": "CIF_plus_duty",
+      "source": "Danish Tax Agency",
+      "source_url": "https://www.skat.dk/",
+      "note": ""
+    },
+    {
+      "type": "Registration Tax",
+      "rate": 85.0,
+      "base": "CIF_plus_duty",
+      "source": "Danish Tax Agency",
+      "source_url": "https://www.skat.dk/",
+      "note": "First DKK 65,000 at 85%, remainder at 150%. BEVs get reductions."
+    }
+  ],
+  "Belgium": [
+    {
+      "type": "VAT",
+      "rate": 21.0,
+      "base": "CIF_plus_duty",
+      "source": "Belgian Federal Public Service Finance",
+      "source_url": "https://finances.belgium.be/",
+      "note": ""
+    }
+  ],
+  "UK": [
+    {
+      "type": "VAT",
+      "rate": 20.0,
+      "base": "CIF_plus_duty",
+      "source": "HM Revenue & Customs",
+      "source_url": "https://www.gov.uk/government/organisations/hm-revenue-customs",
+      "note": ""
+    }
+  ],
+  "USA": [
+    {
+      "type": "Sales Tax",
+      "rate": 7.25,
+      "base": "CIF_plus_duty",
+      "source": "State and Local Tax Authorities (average)",
+      "source_url": "https://www.tax.ca.gov/",
+      "note": "Varies by state, 7.25% California rate used as example"
+    }
+  ],
+  "Canada": [
+    {
+      "type": "GST",
+      "rate": 5.0,
+      "base": "CIF_plus_duty",
+      "source": "Canada Revenue Agency",
+      "source_url": "https://www.canada.ca/en/revenue-agency.html",
+      "note": ""
+    },
+    {
+      "type": "Provincial Tax",
+      "rate": 7.0,
+      "base": "CIF_plus_duty",
+      "source": "Provincial Tax Authorities (average)",
+      "source_url": "https://www.canada.ca/",
+      "note": "Varies by province"
+    }
+  ],
+  "Mexico": [
+    {
+      "type": "VAT",
+      "rate": 16.0,
+      "base": "CIF_plus_duty",
+      "source": "Mexican Tax Administration Service",
+      "source_url": "https://www.sat.gob.mx/",
+      "note": ""
+    },
+    {
+      "type": "ISAN",
+      "rate": 3.0,
+      "base": "CIF_plus_duty",
+      "source": "Mexican Tax Administration Service",
+      "source_url": "https://www.sat.gob.mx/",
+      "note": "New Vehicle Tax (Impuesto Sobre Automóviles Nuevos)"
+    }
+  ],
+  "China": [
+    {
+      "type": "VAT",
+      "rate": 13.0,
+      "base": "CIF_plus_duty",
+      "source": "State Taxation Administration of China",
+      "source_url": "http://www.chinatax.gov.cn/eng/",
+      "note": ""
+    },
+    {
+      "type": "Consumption Tax",
+      "rate": 5.0,
+      "base": "CIF_plus_duty",
+      "source": "State Taxation Administration of China",
+      "source_url": "http://www.chinatax.gov.cn/eng/",
+      "note": "Varies by engine displacement, 1% for small cars, up to 40% for luxury"
+    }
+  ],
+  "Japan": [
+    {
+      "type": "Consumption Tax",
+      "rate": 10.0,
+      "base": "CIF_plus_duty",
+      "source": "National Tax Agency Japan",
+      "source_url": "https://www.nta.go.jp/english/",
+      "note": ""
+    }
+  ],
+  "South Korea": [
+    {
+      "type": "VAT",
+      "rate": 10.0,
+      "base": "CIF_plus_duty",
+      "source": "National Tax Service Korea",
+      "source_url": "https://www.nts.go.kr/english/",
+      "note": ""
+    },
+    {
+      "type": "Individual Consumption Tax",
+      "rate": 5.0,
+      "base": "CIF_plus_duty",
+      "source": "National Tax Service Korea",
+      "source_url": "https://www.nts.go.kr/english/",
+      "note": "BEVs are exempt"
+    }
+  ],
+  "Thailand": [
+    {
+      "type": "VAT",
+      "rate": 7.0,
+      "base": "CIF_plus_duty",
+      "source": "Thai Revenue Department",
+      "source_url": "https://www.rd.go.th/",
+      "note": ""
+    },
+    {
+      "type": "Excise Tax",
+      "rate": 35.0,
+      "base": "CIF",
+      "source": "Thai Excise Department",
+      "source_url": "https://www.excise.go.th/",
+      "note": "Varies by engine size and emissions. BEVs get reduced rates."
+    }
+  ],
+  "Indonesia": [
+    {
+      "type": "VAT",
+      "rate": 11.0,
+      "base": "CIF_plus_duty",
+      "source": "Indonesian Tax Office",
+      "source_url": "https://www.pajak.go.id/",
+      "note": ""
+    },
+    {
+      "type": "Luxury Tax",
+      "rate": 40.0,
+      "base": "CIF_plus_duty",
+      "source": "Indonesian Tax Office",
+      "source_url": "https://www.pajak.go.id/",
+      "note": "PPnBM - Sales Tax on Luxury Goods, varies 10-125%"
+    }
+  ],
+  "India": [
+    {
+      "type": "GST",
+      "rate": 28.0,
+      "base": "CIF_plus_duty",
+      "source": "Central Board of Indirect Taxes and Customs",
+      "source_url": "https://www.cbic.gov.in/",
+      "note": ""
+    },
+    {
+      "type": "Cess",
+      "rate": 22.0,
+      "base": "CIF_plus_duty",
+      "source": "Central Board of Indirect Taxes and Customs",
+      "source_url": "https://www.cbic.gov.in/",
+      "note": "Compensation Cess, varies by vehicle type and length"
+    }
+  ],
+  "Singapore": [
+    {
+      "type": "GST",
+      "rate": 9.0,
+      "base": "CIF_plus_duty",
+      "source": "Inland Revenue Authority of Singapore",
+      "source_url": "https://www.iras.gov.sg/",
+      "note": ""
+    },
+    {
+      "type": "ARF",
+      "rate": 100.0,
+      "base": "CIF_plus_duty",
+      "source": "Land Transport Authority",
+      "source_url": "https://www.lta.gov.sg/",
+      "note": "Additional Registration Fee, tiered rates up to 320%"
+    }
+  ],
+  "Vietnam": [
+    {
+      "type": "VAT",
+      "rate": 10.0,
+      "base": "CIF_plus_duty",
+      "source": "General Department of Taxation Vietnam",
+      "source_url": "https://www.gdt.gov.vn/",
+      "note": ""
+    },
+    {
+      "type": "Special Consumption Tax",
+      "rate": 50.0,
+      "base": "CIF",
+      "source": "General Department of Taxation Vietnam",
+      "source_url": "https://www.gdt.gov.vn/",
+      "note": "Varies by engine size, 10-150%"
+    }
+  ],
+  "Philippines": [
+    {
+      "type": "VAT",
+      "rate": 12.0,
+      "base": "CIF_plus_duty",
+      "source": "Bureau of Internal Revenue Philippines",
+      "source_url": "https://www.bir.gov.ph/",
+      "note": ""
+    },
+    {
+      "type": "Excise Tax",
+      "rate": 10.0,
+      "base": "CIF",
+      "source": "Bureau of Internal Revenue Philippines",
+      "source_url": "https://www.bir.gov.ph/",
+      "note": "Varies by engine displacement and fuel type"
+    }
+  ],
+  "Australia": [
+    {
+      "type": "GST",
+      "rate": 10.0,
+      "base": "CIF_plus_duty",
+      "source": "Australian Taxation Office",
+      "source_url": "https://www.ato.gov.au/",
+      "note": ""
+    },
+    {
+      "type": "Luxury Car Tax",
+      "rate": 33.0,
+      "base": "CIF_plus_duty",
+      "source": "Australian Taxation Office",
+      "source_url": "https://www.ato.gov.au/",
+      "note": "Only applies above AUD 89,332 threshold. BEVs have higher threshold."
+    }
+  ],
+  "Brazil": [
+    {
+      "type": "IPI",
+      "rate": 25.0,
+      "base": "CIF_plus_duty",
+      "source": "Brazilian Federal Revenue Service",
+      "source_url": "http://receita.economia.gov.br/",
+      "note": "Industrialized Products Tax, varies 7-25%"
+    },
+    {
+      "type": "ICMS",
+      "rate": 18.0,
+      "base": "CIF_plus_duty",
+      "source": "State Tax Authorities",
+      "source_url": "http://receita.economia.gov.br/",
+      "note": "State VAT, varies by state 12-25%"
+    },
+    {
+      "type": "PIS/COFINS",
+      "rate": 11.75,
+      "base": "CIF_plus_duty",
+      "source": "Brazilian Federal Revenue Service",
+      "source_url": "http://receita.economia.gov.br/",
+      "note": "Social contribution taxes"
+    }
+  ],
+  "Argentina": [
+    {
+      "type": "VAT",
+      "rate": 21.0,
+      "base": "CIF_plus_duty",
+      "source": "Argentine Tax Authority",
+      "source_url": "https://www.afip.gob.ar/",
+      "note": ""
+    },
+    {
+      "type": "Internal Tax",
+      "rate": 20.0,
+      "base": "CIF_plus_duty",
+      "source": "Argentine Tax Authority",
+      "source_url": "https://www.afip.gob.ar/",
+      "note": "Impuesto Interno, luxury tax on vehicles"
+    }
+  ],
+  "Turkey": [
+    {
+      "type": "VAT",
+      "rate": 20.0,
+      "base": "CIF_plus_duty",
+      "source": "Turkish Revenue Administration",
+      "source_url": "https://www.gib.gov.tr/",
+      "note": ""
+    },
+    {
+      "type": "ÖTV",
+      "rate": 80.0,
+      "base": "CIF_plus_duty",
+      "source": "Turkish Revenue Administration",
+      "source_url": "https://www.gib.gov.tr/",
+      "note": "Special Consumption Tax, varies 45-220% by engine size"
+    }
+  ]
+}
