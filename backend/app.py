@@ -9,7 +9,7 @@ from calculator import MSRPCalculator
 from models import VehicleInput
 import os
 
-app = Flask(__name__, static_folder='../frontend', static_url_path='')
+app = Flask(__name__, static_folder='..', static_url_path='')
 CORS(app)
 
 calculator = MSRPCalculator()
@@ -40,8 +40,14 @@ PROPULSION_TYPES = [
 
 @app.route('/')
 def index():
-    """Serve the frontend"""
+    """Serve the landing page"""
     return send_from_directory(app.static_folder, 'index.html')
+
+
+@app.route('/calculator')
+def calculator_page():
+    """Serve the calculator frontend"""
+    return send_from_directory(os.path.join(app.static_folder, 'frontend'), 'calculator.html')
 
 
 @app.route('/api/countries/production', methods=['GET'])
