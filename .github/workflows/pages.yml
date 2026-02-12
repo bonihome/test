@@ -33,6 +33,7 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           path: '.'
+          # GitHub Pages artifact upload automatically excludes .git directory
       
       - name: Deploy to GitHub Pages
         id: deployment
