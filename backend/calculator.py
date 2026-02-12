@@ -3,6 +3,8 @@ Core calculation engine for Vehicle MSRP Calculator
 """
 
 import json
+import os
+from pathlib import Path
 from typing import Dict, List
 from models import VehicleInput, CalculationResult
 
@@ -15,20 +17,24 @@ class MSRPCalculator:
     
     def load_data(self):
         """Load tariff, tax, and freight data"""
+        # Get the directory containing this file
+        base_dir = Path(__file__).resolve().parent.parent
+        data_dir = base_dir / 'data'
+        
         try:
-            with open('../data/tariffs.json', 'r') as f:
+            with open(data_dir / 'tariffs.json', 'r') as f:
                 self.tariffs = json.load(f)
         except FileNotFoundError:
             self.tariffs = []
         
         try:
-            with open('../data/taxes.json', 'r') as f:
+            with open(data_dir / 'taxes.json', 'r') as f:
                 self.taxes = json.load(f)
         except FileNotFoundError:
             self.taxes = {}
         
         try:
-            with open('../data/freight.json', 'r') as f:
+            with open(data_dir / 'freight.json', 'r') as f:
                 self.freight_data = json.load(f)
         except FileNotFoundError:
             self.freight_data = []

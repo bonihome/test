@@ -2,7 +2,7 @@
 
 This document lists all the official sources used for tariff and tax data in the Vehicle MSRP Calculator.
 
-## Last Updated: 2024-01-01
+## Last Updated: 2024-02-12
 
 ---
 

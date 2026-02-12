@@ -47,7 +47,7 @@ vehicle-msrp-calculator/
 1. **Clone the repository**
    ```bash
    git clone <repository-url>
-   cd test
+   cd <repository-directory>
    ```
 
 2. **Install Python dependencies**

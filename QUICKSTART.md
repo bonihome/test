@@ -19,6 +19,13 @@ python app.py
 
 The server will start on http://localhost:5000
 
+For development with debug mode (auto-reload on code changes):
+```bash
+FLASK_DEBUG=true python app.py
+```
+
+**Note**: Never use debug mode in production as it can allow arbitrary code execution.
+
 ### Step 3: Open the Application
 
 Open your web browser and navigate to:
