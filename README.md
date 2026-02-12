@@ -5,6 +5,11 @@ test
 
 You can run this software online at: [https://bonihome.github.io/test/](https://bonihome.github.io/test/)
 
+> **Note:** After merging this PR, GitHub Pages will be automatically deployed via GitHub Actions. If you see a 404 error, please ensure:
+> 1. The PR has been merged to the main/master branch
+> 2. GitHub Pages is enabled in repository Settings → Pages
+> 3. The source is set to "GitHub Actions"
+
 Alternatively, to run locally:
 ```bash
 # Clone the repository
